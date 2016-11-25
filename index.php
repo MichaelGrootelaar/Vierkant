@@ -110,13 +110,13 @@
       </select>
 
       <input type="color" name="color">
-      <input type="number" name="width" placeholder="Width" id="width">
-      <input type="number" name="height" placeholder="Height" id="height">
+      <input type="number" name="width" placeholder="Width in pixels" id="width">
+      <input type="number" name="height" placeholder="Height in pixels" id="height">
 
-      <input type="number" name="radius" placeholder="Radius" id="radius" style="display:none;">
-      <input type="number" name="diameter" placeholder="Diameter" id="diameter" style="display:none;">
+      <input type="number" name="radius" placeholder="Radius of the borders" id="radius" style="display:none;">
+      <input type="number" name="diameter" placeholder="Diameter in pixels" id="diameter" style="display:none;">
 
-      <input type="number" name="rotation" placeholder="Rotation" id="rotation" style="display:none;">
+      <input type="number" name="rotation" placeholder="Rotation in seconds" id="rotation" style="display:none;">
 
       <input type="submit">
     </form>
